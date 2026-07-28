@@ -1,0 +1,10 @@
+class Student:
+
+    subject = "Python"
+
+    @classmethod
+    def show_subject(cls):
+        print("Subject:", cls.subject)
+
+
+Student.show_subject()

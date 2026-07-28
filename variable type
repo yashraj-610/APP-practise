@@ -1,0 +1,17 @@
+x = 100
+
+class Student:
+    subject = "Advanced Python"
+
+    def __init__(self, name):
+        self.name = name
+
+    def show(self):
+        marks = 90
+        print("Global Variable:", x)
+        print("Class Variable:", self.subject)
+        print("Instance Variable:", self.name)
+        print("Local Variable:", marks)
+
+  s = Student("Yashraj")
+s.show()

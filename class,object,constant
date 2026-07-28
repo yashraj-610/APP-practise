@@ -1,0 +1,15 @@
+class Student:
+
+    def __init__(self, name):   # Constructor
+        # Store name
+        self.name = name
+
+    # Display name
+    def show(self):
+        print("Student Name:", self.name)
+
+s1 = Student("Yashraj")   # Create objects
+s2 = Student("Omkar")
+
+s1.show()  # Call method
+s2.show()
